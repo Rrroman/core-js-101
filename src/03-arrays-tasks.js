@@ -432,22 +432,8 @@ function toStringList(arr) {
  *    ]
  */
 function sortCitiesArray(/* arr */) {
-  // arr.sort((a, b) => a.country.localeCompare(b.country));
-  // arr.sort((a, b) => a.city.localeCompare(b.city));
-  // return arr;
   throw new Error('Not implemented');
 }
-
-// console.log(
-//   sortCitiesArray([
-//     { country: 'Russia', city: 'Moscow' },
-//     { country: 'Belarus', city: 'Minsk' },
-//     { country: 'Poland', city: 'Warsaw' },
-//     { country: 'Russia', city: 'Saint Petersburg' },
-//     { country: 'Poland', city: 'Krakow' },
-//     { country: 'Belarus', city: 'Brest' },
-//   ])
-// );
 
 /**
  * Creates an indentity matrix of the specified size
@@ -502,8 +488,9 @@ function getIntervalArray(start, end) {
  *   [ 'a', 'a', 'a', 'a' ]  => [ 'a' ]
  *   [ 1, 1, 2, 2, 3, 3, 4, 4] => [ 1, 2, 3, 4]
  */
-function distinct(arr) {
-  return [...new Set(arr)];
+function distinct(/* arr */) {
+  // return [...new Set(arr)];
+  throw new Error('Not implemented');
 }
 
 /**
